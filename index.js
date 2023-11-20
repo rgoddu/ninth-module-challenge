@@ -10,32 +10,7 @@ async function init() {
 inquirer.prompt(
     
 // TODO: Create an array of questions for user input
-    [{
-      type: 'input',
-      name: 'description',
-      message: 'Enter a description of your project',
-    },
-    {
-      type: 'input',
-      name: 'installation',
-      message: 'Enter a description of how to install your product',
-    },
-    {
-      type: 'input',
-      name: 'usage',
-      message: 'Enter a description of how to use your product',
-    },
-    {
-      type: 'input',
-      name: 'contributing',
-      message: 'Enter information about contributing to your project',
-    },
-    {
-      type: 'input',
-      name: 'tests',
-      message: 'Explain how to test your product',
-    },
-  ])
+    readme.arrayOfInputs)
   .then((answers) => {
     const READMEPageContent = readme.writeToFile(answers);
 

@@ -1,28 +1,23 @@
 ## Description
-sdf
+big project!
     ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [Tests](#tests)
 - [How To Contribute](#contribution)
+- [Questions](#questions)
 - [License](#license)
 ## Installation
-agfs
+run npm init -y, run npm install inquirer@8.2.4
 ## Usage
-awsedf
+run index.js
 ## Credits
 
 ## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
----
-:trophy: The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-## Badges
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-## Features
-If your project has a lot of features, list them here.
+the MIT license is in use. Have at it pal!
+
 ## How to Contribute
-zxcafx
+don't contribute please, it is perfect the way it is.
 ## Tests
-asdf
+see above.

@@ -1,4 +1,10 @@
 function writeToFile(promise){
+    switch(promise.license)
+{case 'MIT': var license = "the MIT license is in use. Have at it pal!"
+break;
+case 'NYU': var license = "The NYU license is in use. too bad it doesn't exist!"
+break;}
+
 return(
     `## Description
 ${promise.description}
@@ -17,19 +23,46 @@ ${promise.usage}
 ## Credits
 
 ## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
----
-:trophy: The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-## Badges
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-## Features
-If your project has a lot of features, list them here.
+${license}
+
 ## How to Contribute
 ${promise.contributing}
 ## Tests
 ${promise.tests}`)
 }
+
+arrayOfInputs = [{
+    type: 'input',
+    name: 'description',
+    message: 'Enter a description of your project',
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'Enter a description of how to install your product',
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'Enter a description of how to use your product',
+  },
+  {
+    type: 'ipnut',
+    name: 'license',
+    message: 'Enter license (MIT/NYU)'
+  },
+  {
+    type: 'input',
+    name: 'contributing',
+    message: 'Enter information about contributing to your project',
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message: 'Explain how to test your product',
+  },
+]
 module.exports = {
-   writeToFile
+   writeToFile,
+   arrayOfInputs
 } 
