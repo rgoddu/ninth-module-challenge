@@ -1,0 +1,15 @@
+{
+  "name": "ninth-module-challenge",
+  "version": "1.0.0",
+  "description": "function writeToFile(promise){\r return(\r     `## Description\r ${promise.description}\r     ## Table of Contents\r - [Installation](#installation)\r - [Usage](#usage)\r - [Credits](#credits)\r - [Tests](#tests)\r - [How To Contribute](#contribution)\r - [Questions](#questions)\r - [License](#license)\r ## Installation\r ${promise.installation}\r ## Usage\r ${promise.usage}\r ## Credits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
